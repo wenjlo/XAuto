@@ -25,3 +25,4 @@ if __name__ == '__main__':
         except:
             login_email_confirm(driver,u,p)
         post(driver,TEXT_PATH)
+        time.sleep(1)
